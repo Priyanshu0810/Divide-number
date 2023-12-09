@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    float a,b;
+    clrscr();
+    printf("Enter the first number a/n");
+    scanf("%f",&a);
+
+    printf("Enter the second number b/n");
+    scanf("%f",&b);
+
+    printf("The divide is %f\n",a/b);
+
+    getch();
+}
